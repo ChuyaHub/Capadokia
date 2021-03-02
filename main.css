@@ -1,0 +1,139 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+.example-block {
+
+}
+.example-string {
+
+}
+
+@font-face{
+	font-family: 'balqis'; 
+	src: url('fonts/balqis.woff2') format('woff2'),
+url('fonts/balqis.woff') format('woff');
+font-weight: 300;
+font-style: normal;
+}
+
+@font-face{
+	font-family: 'RobotoCondensed-LightItalic'; 
+	src: url('fonts/RobotoCondensed-LightItalic.woff2') format('woff2'),
+url('fonts/RobotoCondensed-LightItalic.woff') format('woff');
+font-weight: 300;
+font-style: normal;
+}
+
+
+a{
+	color: black;
+}
+
+.container{
+max-width: 1200px;
+margin: 0 auto; 
+padding: 0 15px;
+padding-top: 15px;
+
+
+}
+
+
+body{
+font-size: 18px;
+line-height: 21px;
+
+}
+
+
+header{
+			background-image: url('images/12.jpg');
+			width: 100%;
+			height: 100vh;
+background-repeat: no-repeat;
+background-size: cover;position: absolute;
+
+background-position: bottom center; 		}
+.headertop{
+display: flex; justify-content: space-between;
+padding-top: 72px;
+
+}
+
+.menuitem{
+	display: inline-block;
+	margin-right: 52px;
+
+}
+
+.menuitem{
+	font-size: 24px;
+	line-height: 28px;
+	font-family: 'Roboto Condensed', sans-serif;}
+
+
+
+.menulink:hover {
+	text-decoration: underline;
+
+}
+.tel {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 24px;
+	padding-left: 15px;
+	
+}
+
+
+h1{
+	padding-top: 152px;
+	text-align: center;
+	font-size: 250px;
+	line-height: 334px;
+	font-family: 'balqis';
+}
+h1 span{
+ display: block;
+ font-size: 56px;
+ line-height: 66px;
+ font-family: RobotoCondensed-LightItalic;
+margin-left: 590px;
+margin-top: -66px;
+}
+.logo{
+	display: flex;
+	justify-content: flex-end;
+
+}
+
+
